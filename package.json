@@ -1,0 +1,20 @@
+{
+  "name": "WebRTC1",
+  "version": "0.0.0",
+  "description": "Generated with Eclipse npm Tools",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon Server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
