@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <script>const ROOM_ID = "<%= roomId %>" </script>
+   <script>const ROOM_ID = "<%= roomId %>" </script> <!-- roomId(랜덤 값)을 받아서 ROOM_ID에 저장 -->
   
-  <script defer src="https://unpkg.com/peerjs@1.2.0/dist/peerjs.min.js"></script>
-  <script src="/socket.io/socket.io.js" defer></script>
-  <script src="script.js" defer></script>
+  <script defer src="https://unpkg.com/peerjs@1.2.0/dist/peerjs.min.js"></script> <!--  PeerJS API를 사용하기위해  -->
+  <script src="/socket.io/socket.io.js" defer></script> <!-- socket.io를 사용하기위해 -->
+  <script src="script.js" defer></script> <!-- script.js를 사용하기 위해 -->
   <title>Document</title>
   <style>
     #video-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, 300px);
-      grid-auto-rows: 300px;
+      grid-template-columns: repeat(auto-fill, 1000px);
+      grid-auto-rows: 1000px;
     }
     
     video {
